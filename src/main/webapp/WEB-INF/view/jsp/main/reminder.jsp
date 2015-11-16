@@ -42,7 +42,7 @@
                 <td>${food.quantity}</td>
                 <td>${food.expiredate}</td>
                 <td>
-                    <spring:url value="/food/${food.id}" var="foodUrl" />
+                    <spring:url value="/delete/${food.id}" var="foodUrl" />
                     <button class="btn btn-delete" onclick="location.href='${foodUrl}'">Delete</button>
                 </td>
             </tr>
