@@ -31,6 +31,7 @@
             <th>Name</th>
             <th>Quantity</th>
             <th>Expire Date</th>
+            <th>Delete Food</th>
         </tr>
         </thead>
 
