@@ -44,12 +44,12 @@ public class Food {
         this.quantity = quantity;
     }
 
-    public String getExpiredatedate() {
+    public String getExpiredate() {
         return expiredate;
     }
 
-    public void setExpiredatedate(String date) {
-        this.expiredate = date;
+    public void setExpiredate(String expiredate) {
+        this.expiredate = expiredate;
     }
 
     // TODO: Don't know yet

@@ -40,7 +40,7 @@ public class FoodDaoImpl implements FoodDao {
 			food.setIcon(rs.getString("icon"));
 			food.setName(rs.getString("name"));
 			food.setQuantity(rs.getInt("quantity"));
-			food.setExpiredatedate(rs.getString("expiredate"));
+			food.setExpiredate(rs.getString("expiredate"));
 			return food;
 		}
 	}
