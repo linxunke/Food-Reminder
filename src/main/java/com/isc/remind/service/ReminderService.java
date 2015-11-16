@@ -1,6 +1,6 @@
 package com.isc.remind.service;
 
-import com.isc.remind.dao.entity.Food;
+import com.isc.remind.entity.Food;
 
 import java.util.List;
 
