@@ -31,7 +31,7 @@ public class ReminderController {
         return "redirect:/main";
     }
 
-    // list page
+    // reminder page
     @RequestMapping(value = "/main", method = RequestMethod.GET)
     public String showAllFoods(Model model) {
 
