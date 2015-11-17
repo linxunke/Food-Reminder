@@ -1,20 +1,3 @@
-/*
-Navicat MySQL Data Transfer
-
-Source Server         : mysql-root-joe
-Source Server Version : 50709
-Source Host           : localhost:3306
-Source Database       : iscdb
-
-Target Server Type    : MYSQL
-Target Server Version : 50709
-File Encoding         : 65001
-
-Date: 2015-11-16 17:15:20
-*/
-
-SET FOREIGN_KEY_CHECKS=0;
-
 -- ----------------------------
 -- Table structure for foods
 -- ----------------------------
@@ -31,6 +14,10 @@ CREATE TABLE `foods` (
 -- ----------------------------
 -- Records of foods
 -- ----------------------------
-INSERT INTO `foods` VALUES ('1', 'image', 'milk', '2', '2015-11-16');
-INSERT INTO `foods` VALUES ('2', 'image', 'bread', '1', '2015-11-17');
-INSERT INTO `foods` VALUES ('3', 'image', 'beef', '3', '2015-11-18');
+INSERT INTO foods
+(icon, name, quantity, expiredate)
+VALUES
+('image', 'milk', '1', '2015-11-17'),
+('image', 'bread', '3', '2015-11-19'),
+('image', 'beef', '2', '2015-11-23'),
+('image', 'apple', '4', '2015-11-30');

@@ -31,7 +31,7 @@ public class DBConfig {
 		dbSource.setDriverClassName("com.mysql.jdbc.Driver");
 		dbSource.setUrl("jdbc:mysql://localhost:3306/iscdb");
 		dbSource.setUsername("root");
-		dbSource.setPassword("1q2w3e4r");
+		dbSource.setPassword("password");
 
 		return dbSource;
 	}
